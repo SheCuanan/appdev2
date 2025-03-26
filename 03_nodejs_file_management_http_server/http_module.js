@@ -1,9 +1,9 @@
 // Import the need modules  
-const http = require('http'); // For HTTP server  
-const fs = require('fs'); // For fs operations  
-const path = require('path'); // For handling file paths  
-const url = require('url'); // For parsing URL queries  
-const EventEmitter = require('events'); // For event handling  
+const http = require('http'); 
+const fs = require('fs');  
+const path = require('path');  
+const url = require('url'); 
+const EventEmitter = require('events'); 
 
 // Create an EventEmitter instance  
 const eventEmitter = new EventEmitter();  
