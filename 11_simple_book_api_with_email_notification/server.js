@@ -7,7 +7,8 @@ const authenticateToken = require('./middleware/auth.middleware');
 
 require("dotenv").config();
 // console.log('DEBUG ENV:', process.env.SMTP_HOST);
- const app = express();
+
+const app = express();
 
 // Middleware
 app.use(express.json());
