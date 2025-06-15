@@ -22,7 +22,7 @@ app.use('/api/books', authenticateToken, bookRoutes);
 
 // Root route
 app.get("/", (req, res) => {
-  res.send("Simple Book API using Node.js, Express, and MongoDB");
+  res.send("A Simple Book API with Node.js, Express, and MongoDB");
 });
 
 // Database connection
